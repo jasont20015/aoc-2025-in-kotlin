@@ -13,3 +13,9 @@ tasks {
         gradleVersion = "9.2.1"
     }
 }
+dependencies {
+    implementation(kotlin("stdlib"))
+}
+repositories {
+    mavenCentral()
+}
